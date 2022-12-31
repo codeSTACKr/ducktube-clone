@@ -1,38 +1,71 @@
 .App {
-  text-align: center;
+    text-align: start;
+    display: block;
+    max-width: 100vw;
+    background-color: #0f0f0f;
+    height: 100%;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    height: 75px;
+    gap: 24px;
+    align-content: center;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.App-body {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+}
+
+.App-main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.App-grid {
+    display: grid;
+    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 98%;
+    height: 100%;
+    gap: 12px;
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
 }

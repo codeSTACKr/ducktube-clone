@@ -1,0 +1,55 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f0f0f;
+    color: white;
+    font-size: 1rem;
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.info-wrapper {
+    display: flex;
+    gap: 11px;
+    align-content: start;
+    justify-content: start;
+    align-items: start;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+.info-title {
+    display: block;
+    margin: 0px;
+    font-size: 0.9rem;
+    padding-left: 0px;
+}
+
+.info-img {
+    border-radius: 100px;
+}
+
+.info-channel {
+    padding-left: 0px;
+    font-size: 0.9rem;
+    color: #a8a8a8;
+    margin: 6px 0px 0px;
+
+    svg {
+        width: 14px;
+    }
+
+    display:flex;
+    align-content:center;
+    gap:4px;
+}
+
+.info-views {
+    padding-left: 0px;
+    color: #a8a8a8;
+    font-size: 0.9rem;
+    margin: 0px;
+}
